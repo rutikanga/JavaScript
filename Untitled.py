@@ -1,7 +1,3 @@
-
-
-
-
 print('Hello ')
 N = int(input('Please input the length of the pole : '))
 print(f'The pole is {N} cm')
@@ -24,4 +20,4 @@ else:
 if furthest > 10-nearest:
     print(f"The latest possible time is {furthest + (furthest-((furthest+nearest)/2))} cm/s")
 else:
-    print(f"The latest possible time is {10-nearest +(10-nearest-((10-nearest+furthest)/2))} cm/s")
+    print(f"The latest possible time is {10-nearest +(10-nearest-((10-nearest+furthest)/2))} cm/sec")
