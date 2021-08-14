@@ -21,3 +21,4 @@ if furthest > 10-nearest:
     print(f"The latest possible time is {furthest + (furthest-((furthest+nearest)/2))} cm/s")
 else:
     print(f"The latest possible time is {10-nearest +(10-nearest-((10-nearest+furthest)/2))} cm/sec")
+print('hello')
